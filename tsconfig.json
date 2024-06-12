@@ -1,0 +1,20 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "nuxt/app": ["./node_modules/nuxt/dist/app"]
+    },
+    "types": ["@types/node", "@nuxt/types", "@pinia/nuxt"]
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
