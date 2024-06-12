@@ -3,10 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "npx nuxi build",
-    "start": "nuxi start",
-    "prepare": "npx nuxi prepare"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "prepare": "nuxt prepare"
   },
   "dependencies": {
     "@firebase/app-types": "^0.9.2",
@@ -36,8 +36,6 @@
     "openai": "^4.50.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5.4.5",
-    "@nuxt/kit": "npm:@nuxt/kit-nightly@latest",
-    "nuxi": "^3.0.0"
+    "typescript": "^5.4.5"
   }
 }
