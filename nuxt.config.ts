@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   telemetry: false,
   css: ["~/assets/styles/tailwind.css"],
   modules: ["nuxt-icons", "@nuxtjs/tailwindcss", "@pinia/nuxt", "@vueuse/nuxt"],
+  routeRules: {
+    "/": { ssr: true },
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
