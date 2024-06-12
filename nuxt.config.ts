@@ -2,9 +2,8 @@
 import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
-  ssr: true,
-  devtools: { enabled: true },
   telemetry: false,
+  devtools: { enabled: true },
   routeRules: {
     "/": { ssr: true },
     "/about": { ssr: true },
