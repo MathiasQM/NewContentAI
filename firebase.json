@@ -2,5 +2,6 @@
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
-  }
+  },
+  "predeploy": ["npm install", "npm run build"]
 }
