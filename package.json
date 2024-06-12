@@ -3,11 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxi build",
     "dev": "nuxi dev",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
-    "postinstall": "nuxi prepare"
+    "build": "npx nuxi build",
+    "start": "nuxi start",
+    "prepare": "npx nuxi prepare"
   },
   "dependencies": {
     "@firebase/app-types": "^0.9.2",
